@@ -14,7 +14,4 @@ public class Bus {
     public String TRIPID;
     public String VEHICLE;
     public double distance;
-
-
-
 }
