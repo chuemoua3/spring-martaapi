@@ -49,11 +49,13 @@
             <h3>Sorry, there are no nearby buses.</h3>
         </div>
     </div>
+    
     <div id="map"></div>
+    
         <div th:if="${buses != null and buses.size() > 0}">
             <script th:inline="javascript">
             /*<![CDATA[*/			
-            var busLocations = /*[[${buses}]]*/ null
+            var busLocations = /*[[${buses}]]*/ 
             /*]]>*/
             </script>
             <script th:inline="javascript" src="/custom.js"></script>
